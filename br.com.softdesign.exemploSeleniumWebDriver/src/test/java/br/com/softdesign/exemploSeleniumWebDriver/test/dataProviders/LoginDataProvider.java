@@ -8,7 +8,7 @@ public class LoginDataProvider {
 		@DataProvider(name="DadosDeTesteParaLoginComSucesso")
 		public static Object[][] createDataForSucessLogin() {
 		 return new Object[][] {
-		   { "william.jablonski", "password" }, // Change for your user and password
+		   { "user", "password" }, // Change for your user and password
 		   { "user", "password"},  //for more users in one test
 		 };
 		};
@@ -17,7 +17,7 @@ public class LoginDataProvider {
 		@DataProvider(name="DadosDeTesteParaLoginSemSucesso")
 		public static Object[][] createDataForErrorLogin() {
 		 return new Object[][] {
-		   { "william.jablonski", "xxx" },
+		   { "user", "password" },
 		   { "user", "yyy"},
 		 };
 		};
